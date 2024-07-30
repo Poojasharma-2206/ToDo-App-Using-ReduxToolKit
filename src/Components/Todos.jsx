@@ -7,7 +7,7 @@ function Todos() {
     const dispatch = useDispatch();
   return (
     <>
-      <div className="text-black-500 text-4xl p-4">Todos</div>
+      <div className="text-4xl p-4">Todos</div>
       <ul className="list-none">
         {todos.map((todo) => (
           <li
